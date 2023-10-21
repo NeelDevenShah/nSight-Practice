@@ -1,0 +1,31 @@
+Before making or analysis the report in the any of the system , make sure that the nvdia cuda tool kit is already installed, otherwise report will not be generated.
+
+In this hackathon, we have used the slrum, cuda, nsight compute, nsight systems
+
+For puting the file in the job
+sbatch three-minds.sh
+
+For checking the job that is running
+squeue -u ext28
+
+For making the new environment in the python
+python -m venv myenv
+
+
+For activating the environment ->   scource /scratch/three-minds/workstation/pythonenvs/env2-python37/env2-lbtv/bin/activate
+
+Report path
+/scratch/three-minds/workstation/lab/LatestBrain-TV/neel_tmp/report1.qdrep
+
+slum job path
+/scratch/three-minds/workstation/lab/LatestBrain-TV/slurm_job
+
+
+Two types of the systems -> DGX and cluster
+DGX -> All the gpus are connected together, there are no different ports 
+cluster -> There are different ports for GPU
+
+
+CUDA
+Qunatum computing
+
